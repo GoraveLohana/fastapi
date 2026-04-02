@@ -23,7 +23,7 @@ def get_connection():
 # ── Routes ──────────────────────────────────────────────
 @app.get('/')
 def home():
-    return {'message': 'Hello from FastAPI Container!', 'status': 'ok'}
+    return {'message': 'Hello from FastAPI Container! new branch', 'status': 'ok'}
 
 @app.get('/db-check')
 def db_check():
